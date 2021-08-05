@@ -1,11 +1,5 @@
-function whyWatch(){
-  
-}
-
 //<yt-formatted-string force-default-style="" class="style-scope ytd-video-primary-info-renderer">ORIGINAL - COFFIN DANCING MEME  - Ghana's dancing pallbearers</yt-formatted-string>
 // window.location.replace("http://www.w3schools.com"); replaces current URL with whatever passed in
-
-
 window.addEventListener('yt-page-data-updated', function () {
   let address = window.location.href;
   console.log('THIS IS THE FUCKING ADDRESS' + address + ' this is yt-page ');
@@ -47,38 +41,26 @@ window.addEventListener('yt-page-data-updated', function () {
     talk.style.cssText = `
     font-size: 45px;
     font-weight: bold;
-
     `
-
-    
     modalStuff.appendChild(talk)
     modal.appendChild(modalStuff)
     body.appendChild(modalStuff)
     setTimeout(function(){ window.location.replace(selector()); }, 7500);
-    //alert("LOL You're seriously watching " + document.title + " ? Really? I'm not trying to mean but.... c'mon you can do better...Here, I'll show you something better");
-    // window alert to chastise and ridicule
-    
-    // push message to browser url ?
-    // redirect to random video on youtube playlist
-
-//<yt-formatted-string force-default-style="" class="style-scope ytd-video-primary-info-renderer">Amandine Buchard only needs 16 seconds to end her judo semifinal | Tokyo Olympics | NBC Sports</yt-formatted-string>
-    //
-      // //setTimeout function
   }
 
 });
 
-// array of deep cuts
 
-const beats = ['https://www.youtube.com/watch?v=9GTq9Zsif2Am', 'https://www.youtube.com/watch?v=fs6FgBec-nk', 'https://www.youtube.com/watch?v=9BIYV3BLcno', 'https://www.youtube.com/watch?v=rO3uFWhpD9E', 'https://www.youtube.com/watch?v=KVeXQb_ouTk', 'https://www.youtube.com/watch?v=CRHyBwNtkLA', 'https://www.youtube.com/watch?v=AJjBO08N2_k', 'https://www.youtube.com/watch?v=9Bku7gXlkoo',  'https://www.youtube.com/watch?v=Ll-lia-FEIY', 'https://www.youtube.com/watch?v=D7aYjRl_6Zw&t=538s', 'https://youtu.be/87M5NJfWx7c', 'https://youtu.be/aLPVphRDEgU', 'https://youtu.be/JWOOQUXNnR0', 'https://youtu.be/lPd2A1DbG2s'];
-//https://www.youtube.com/watch?v=7hUBTN6Dd3w&list=LL&index=102
-//https://www.youtube.com/watch?v=KNz01ty-kTQ&list=PLyJJ2yDge-AyzyR7z3b0A8R0zrXYrO9Uu&index=17
+const beats = ['https://www.youtube.com/watch?v=9GTq9Zsif2Am', 'https://www.youtube.com/watch?v=fs6FgBec-nk', 'https://www.youtube.com/watch?v=9BIYV3BLcno', 'https://www.youtube.com/watch?v=rO3uFWhpD9E', 'https://www.youtube.com/watch?v=KVeXQb_ouTk', 'https://www.youtube.com/watch?v=CRHyBwNtkLA', 'https://www.youtube.com/watch?v=AJjBO08N2_k', 'https://www.youtube.com/watch?v=9Bku7gXlkoo',  'https://www.youtube.com/watch?v=Ll-lia-FEIY', 'https://www.youtube.com/watch?v=D7aYjRl_6Zw&t=538s', 'https://www.youtube.com/watch?v=87M5NJfWx7c', 'https://www.youtube.com/watch?v=aLPVphRDEgU', 'https://www.youtube.com/watch?v=JWOOQUXNnR0', 'https://www.youtube.com/watch?v=lPd2A1DbG2s'];
+
 function selector() {
   // goal to return a random element from array of links
   const selection = Math.floor(Math.random() * beats.length);
   return beats[selection];
   
 }
+
+//https://www.youtube.com/watch?v=lPd2A1DbG2s
 
 
 
