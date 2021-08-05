@@ -1,0 +1,26 @@
+chrome extension ideas
+1. youtube bad music checker will 
+redirect to good music            difficult ---7.5
+
+take in song info (title, artist, genre)
+compare info to list of songs or something
+redirect if info isnt found in list
+redirect to music from list
+
+2. a chrome extensions that 
+changes the background html 
+color based off the sound difficult - 9
+
+3. conspiracy text finder
+
+4. where's waldo on the the webpage
+
+5. chinese font size enlargment 
+
+6. a chrome extension that judges 
+how smart you are depending on the 
+text of the website you are looking at
+and then makes fun of you 8
+
+
+7. face replacer extension///////
