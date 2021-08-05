@@ -7,9 +7,6 @@
         "default_popup": "stop.html",
         "default_icon": "stop.png"
       },
-    "background": {
-    "service_worker": "stop.js"
-    },
     "permissions": ["storage","tabs"],
     "content_scripts": [
         {

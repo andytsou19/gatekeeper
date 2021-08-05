@@ -12,7 +12,9 @@ window.addEventListener('yt-page-data-updated', function () {
     const modalStuff = document.createElement('div')
     modalStuff.setAttribute('class', 'modal-content')
     const talk = document.createElement('h1')
-    talk.innerText ="LOLLOLOLOLOLOLOLOLOLOL ROFL ROFL You're seriously watching " + document.title + " ?\n\n🤣🤣🤣🤣🤣 Really?🤣🤣🤣🤣🤣🤣🤣🤣🤣  \n\nI'm not trying to be mean but.... \n\n c'mon you can do better...\n\n🤣🤣🤣🤣🤣Here, watch this.. you'll thank me later"
+    let sliceTitle = document.title.replace(' - YouTube','')
+
+    talk.innerText ="LOLLOLOLOLOLOLOLOLOLOL ROFL ROFL You're seriously watching " + sliceTitle + "!?!?!?!?\n\n🤣🤣🤣🤣🤣 Really?🤣🤣🤣🤣🤣🤣🤣🤣🤣  \n\nI'm not trying to be mean but.... \n\n c'mon, man.... you can do better...\n\n🤣🤣🤣🤣🤣Here, watch this... you'll thank us later."
     
     modal.style.cssText = `
     position: absolute;
