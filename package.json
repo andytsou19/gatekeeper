@@ -1,0 +1,22 @@
+{
+  "name": "untitledchromeextension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andytsou19/untitledChromeExtension.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andytsou19/untitledChromeExtension/issues"
+  },
+  "homepage": "https://github.com/andytsou19/untitledChromeExtension#readme",
+  "dependencies": {
+    "sweetalert": "^2.1.2"
+  }
+}
